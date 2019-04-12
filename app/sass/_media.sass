@@ -1,0 +1,111 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+	/* .top-contacts
+		margin-right: 0px*/
+ 
+//Large: ≥992px
++media-breakpoint-down(lg)
+	.ishome 
+		h1
+			font-size: em(36)
+
+	.header-content
+		.item
+			margin-top: 15px
+			font-size: em(12)
+
+	/* .top-contacts
+		margin-right: 0px  */
+
+//Medium: ≥768px
++media-breakpoint-down(md)
+	.ishome 
+		h1
+			margin-top: 50px
+
+	.head-item
+		padding: 10px
+
+	.mw-wrap
+		display: none
+
+	.header-content
+		padding-bottom: 60px
+
+	.top-contacts
+		margin-right: 50px
+
+//Small: ≥576px
++media-breakpoint-down(sm)
+	.top-contacts
+		margin-right: 50px
+
+	.ishome 
+		h1
+			font-size: em(34)
+			margin-top: 50px
+
+	.header-content
+		padding-top: 5px 0px
+		.item
+			margin-top: 15px
+			font-size: em(11)
+	
+	.gallery-tizer-wrap
+		min-height: 260px 
+		.center-position
+			height: 260px
+
+	.s-about
+		h3
+			margin-top: 25px
+
+	.s-wide
+		padding: 50px 0 30px 0
+		h2
+			margin-bottom: 30px
+
+	.s-adv
+		padding: 55px 0 10px
+
+	.s-energy-item
+		img
+			height: 70px
+
+//Extra small: >0
++media-breakpoint-down(xs)
+	.ishome h1
+		font-size: em(30)
+		margin-top: 45px
+
+	.top-contacts
+		margin-right: 0px
+
+	.toggle-mnu
+		position: relative
+		top: 0
+		right: 0
+
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
++media-breakpoint-up(xs)
+
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)
